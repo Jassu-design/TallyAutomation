@@ -1,0 +1,40 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+env/
+ENV/
+
+# Database & Uploads
+*.db
+*.sqlite3
+backend/uploads/*
+!backend/uploads/.gitkeep
+backend/logs/*
+!backend/logs/.gitkeep
+
+# Environment files
+.env
+.env.local
+
+# Node.js
+node_modules/
+frontend/dist/
+frontend/dist-ssr/
+*.local
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# IDE & OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
